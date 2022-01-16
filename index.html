@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>პროცენტის გადანაწილების კალკულატორი</title>
+    <script src="script.js"> </script>
+
+</head>
+
+<body>
+    <div class="calcContainer">
+        <div class="inputContainer">
+
+            <input type="text" id="neededMonay" placeholder="მოთხოვნილი თანხა">
+
+            <input type="text" id="percent" placeholder="პროცენტი">
+
+            <input type="text" id="startYear" placeholder="რამდენ წელზე ნაწილდება">
+
+            <button id="btnGenerate" onclick="generate()">გამოთვლა</button>
+
+        </div>
+
+        <div class="exportContainer">
+
+            <div class="txtcontainer">
+
+                <p class="resultAmount">
+                    თქვენ იღებთ სესხს <span id="amount"></span> ლარის ოდენობით.
+                </p>
+                <p class="percentAmountP">
+                    სესხის წლიური პროცენტი არის <span id="percentAmount"></span> %
+                </p>
+                <p class="duringYearsp">
+                    სესხის გადანაწილება მოხდება <span Id="duringYears"></span> წელზე / <span id="months"></span>
+                    თვეზე.
+                </p>
+                <p class="payPerMonthp">
+                    თვიური გადასახადი იქნება <span Id="payPerMonth"></span> ლარი.
+                </p>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
